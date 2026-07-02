@@ -1,0 +1,29 @@
+## ======== 你的核心需求 ========
+# 忽略整個專案的 obj 臨時編譯快取目錄
+VirtualScreenSwitch/obj/
+
+## ======== 推薦的 .NET / Visual Studio 標準忽略規則 ========
+
+# 忽略所有編譯輸出產物（bin 目录）
+# 備註：這會防止把你剛剛編譯成功的 exe/dll/pdb 產物誤提交到 Git 中
+VirtualScreenSwitch/bin/
+VirtualScreenSwitch/VirtualScreenSwitch.ico
+
+# 忽略 Visual Studio 的本機快取與工作空間狀態資料夾
+.vs/
+
+# 忽略使用者自訂的本機專案設定檔（通常包含本機路徑、視窗佈局等）
+VirtualScreenSwitch/VirtualScreenSwitch.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略 Rider / VS Code 等其他編輯器的快取（若後續使用的話）
+.idea/
+.vscode/
+
+# 忽略 Windows 系統自動生成的縮圖與快取檔案
+Thumbs.db
+ehthumbs.db
+Desktop.ini

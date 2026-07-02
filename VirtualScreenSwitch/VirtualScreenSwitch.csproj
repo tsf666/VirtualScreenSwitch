@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- 应用图标 -->
+		<ApplicationIcon>VirtualScreenSwitch.ico</ApplicationIcon>
+		<!-- 单文件打包设置 -->
+		<PublishSingleFile>true</PublishSingleFile>
+
+		<!-- 新增：作者/版权信息，会被写进 exe 的文件属性里 -->
+		<Authors>Stephen Tam</Authors>
+		<Company>HKIIT 2526</Company>
+		<Product>关闭屏幕或加锁定工具</Product>
+		<Copyright>Copyright © 2026 Stephen Tam. Licensed under the MIT License.</Copyright>
+		<Version>0.0.3</Version>
+		<AssemblyVersion>0.0.0.3</AssemblyVersion>
+		<FileVersion>0.0.0.3</FileVersion>
+		<Description>VirtualScreenSwitch 一个用于关闭屏幕/锁定电脑的小工具</Description>
+		
+	</PropertyGroup>
+</Project>
