@@ -14,8 +14,10 @@ VirtualScreenSwitch\bin\Release\net8.0-windows\win-x64\publish\VirtualScreenSwit
 
 # 版本更新记录
 
-v_0.2  修复主题按键亮暗模式
-v_0.3  加入自定义秒数及延迟模式选择
+v_0.3(2)  非软件更新，加入了键盘组合键"ctrl+alt+>键" 的快捷方式部署脚本
+v_0.3       加入自定义秒数及延迟模式选择
+v_0.2       修复主题按键亮暗模式
+
 
 ---
 
